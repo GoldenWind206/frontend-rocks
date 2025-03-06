@@ -43,11 +43,10 @@ export const RootRoute = () => {
 
         <p className="text-center text-sm text-blue-400">Clicca sui loghi per saperne di più</p>
       <center>
-        <link
-        to={'/dettaglio/$count'}
-        >
-          link { count }
-        </link>
+        
+        <Link to={'/dettaglio/0'}>
+        </Link>
+       
       </center>
       </div>
     </div>
