@@ -37,7 +37,7 @@ export const App = () => {
         </button>
           <p className="text-center">
             Modifica <code>src/App.tsx</code> e salva per testare l'hot reload
-          </p>
+          </p> 
         </div>
 
         <p className="text-center text-sm text-blue-400">Clicca sui loghi per saperne di più</p>
