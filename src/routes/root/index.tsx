@@ -45,6 +45,7 @@ export const RootRoute = () => {
       <center>
         
         <Link to={'/dettaglio/0'}>
+         link
         </Link>
        
       </center>
