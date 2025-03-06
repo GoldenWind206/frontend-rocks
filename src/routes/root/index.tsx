@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "../../assets/react.svg";
 import viteLogo from "/vite.svg";
 
-export const App = () => {
+export const RootRoute = () => {
   const [count, setCount] = useState(0);
   const [title, setTitle] = useState("Zarude");
 
@@ -41,6 +41,9 @@ export const App = () => {
         </div>
 
         <p className="text-center text-sm text-blue-400">Clicca sui loghi per saperne di più</p>
+      <center>
+        <a href="dettaglio/0"> link 0</a>
+      </center>
       </div>
     </div>
   );
